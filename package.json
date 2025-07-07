@@ -1,7 +1,7 @@
 {
-  "name": "figma-ux-demo",
+  "name": "cloud-platform-demo",
   "version": "1.0.0",
-  "description": "A comprehensive UX demo project with Figma integration",
+  "description": "A modern cloud service platform UX demo with professional interface and comprehensive features",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -19,7 +19,8 @@
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "clsx": "^2.0.0",
-    "tailwind-merge": "^2.0.0"
+    "tailwind-merge": "^2.0.0",
+    "recharts": "^2.8.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.0",
@@ -30,13 +31,14 @@
     "typescript": "^5.2.0"
   },
   "keywords": [
-    "figma",
+    "cloud",
+    "platform",
     "ux",
     "demo",
     "react",
     "nextjs",
-    "design"
+    "dashboard"
   ],
-  "author": "Your Name",
+  "author": "Cloud Platform Team",
   "license": "MIT"
 } 

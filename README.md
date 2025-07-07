@@ -1,15 +1,15 @@
-# 🎨 FigmaUX Demo
+# ☁️ ZhengyanWU CloudPlatform UX Demo
 
 <div align="center">
 
-![FigmaUX Demo](https://img.shields.io/badge/FigmaUX-Demo-blue?style=for-the-badge&logo=figma)
+![ZhengyanWU CloudPlatform](https://img.shields.io/badge/ZhengyanWU_CloudPlatform-Demo-blue?style=for-the-badge&logo=cloud)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-*A comprehensive UX demo project showcasing modern design principles, Figma integration, and best practices for creating exceptional user experiences.*
+*A comprehensive cloud service platform UX demo showcasing modern infrastructure management, analytics, and enterprise-grade features by ZhengyanWU.*
 
-[🚀 Live Demo](#) • [📖 Documentation](./docs/DESIGN_SYSTEM.md) • [🎯 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack)
+[🚀 Live Demo](#) • [📖 Documentation](#documentation) • [🎯 Features](#-features) • [🛠️ Tech Stack](#️-tech-stack)
 
 </div>
 
@@ -17,42 +17,47 @@
 
 ## ✨ What's Inside
 
-This project demonstrates a complete UX workflow from design to development, featuring:
+This project demonstrates a complete cloud platform experience, featuring:
 
-- 🎨 **Modern Design System** with comprehensive color palette, typography, and component library
-- 🔗 **Seamless Figma Integration** connecting design and development workflows
-- 📱 **Responsive Design** with mobile-first approach and beautiful animations
-- ⚡ **Interactive Components** with smooth transitions and micro-interactions
-- 🔒 **TypeScript Support** for full type safety and modern development experience
-- 🎭 **Framer Motion** for performant animations and delightful user experiences
+- ☁️ **Cloud Infrastructure Management** with compute, storage, networking, and database services
+- 📊 **Real-time Analytics Dashboard** with performance metrics and resource monitoring
+- 🎨 **Modern UI/UX Design** with responsive layouts and smooth animations
+- 📱 **Mobile-First Approach** optimized for all device sizes
+- ⚡ **Interactive Components** with hover effects and micro-interactions
+- 🔒 **Enterprise Features** including security, compliance, and team management
+- 💰 **Transparent Pricing** with feature comparison and plan selection
 
 ---
 
 ## 🎯 Features
 
-### 🎨 Design System
-- **Comprehensive Color Palette** - Figma-inspired colors with accessibility compliance
-- **Typography Scale** - Inter font family with responsive sizing
-- **Component Library** - Reusable UI components with consistent styling
-- **Design Tokens** - Centralized design values for consistency
+### ☁️ Cloud Services
+- **Compute Services** - Virtual machines, containers, and auto-scaling
+- **Storage Solutions** - Block storage, object storage, and file systems
+- **Networking** - Load balancers, CDN, and private networking
+- **Database Services** - Managed databases with high availability
+- **Security & Compliance** - Enterprise-grade security with certifications
 
-### 🔗 Figma Integration
-- **Component Export** - Export Figma components to React/Vue/HTML
-- **Design Tokens Sync** - Extract colors, typography, and spacing automatically
-- **Real-time Updates** - Automatic synchronization between design and code
-- **Code Generation** - Generate production-ready code from designs
+### 📊 Analytics & Monitoring
+- **Real-time Dashboard** - Live metrics and resource utilization
+- **Performance Analytics** - CPU, memory, storage, and network monitoring
+- **Geographic Distribution** - Global traffic and user analytics
+- **Custom Charts** - Interactive data visualization
+- **Alert System** - Proactive monitoring and notifications
 
-### 📱 Responsive & Accessible
-- **Mobile-First Design** - Optimized for all device sizes
-- **WCAG Compliant** - Meets accessibility standards
-- **Touch-Friendly** - Optimized for mobile interactions
-- **Performance Optimized** - Fast loading and smooth animations
-
-### ⚡ Interactive Elements
+### 🎨 User Experience
+- **Responsive Design** - Optimized for desktop, tablet, and mobile
 - **Smooth Animations** - Powered by Framer Motion
-- **Micro-interactions** - Delightful hover and focus states
-- **Copy-to-Clipboard** - Interactive color swatches
-- **Scroll Animations** - Engaging scroll-triggered effects
+- **Interactive Elements** - Hover effects and micro-interactions
+- **Accessibility** - WCAG compliant with keyboard navigation
+- **Performance** - Fast loading and optimized bundles
+
+### 💼 Enterprise Features
+- **Team Management** - User roles and permissions
+- **Billing & Pricing** - Transparent pricing with feature comparison
+- **Support System** - Multiple support tiers and contact options
+- **Documentation** - Comprehensive guides and API references
+- **Security** - SOC 2, GDPR compliance, and advanced encryption
 
 ---
 
@@ -65,7 +70,7 @@ This project demonstrates a complete UX workflow from design to development, fea
 | **Styling** | [Tailwind CSS](https://tailwindcss.com/) | 3.3.0 |
 | **Animations** | [Framer Motion](https://framer.com/motion) | 10.16.0 |
 | **Icons** | [Lucide React](https://lucide.dev/) | 0.292.0 |
-| **Design Integration** | Figma API | Latest |
+| **Charts** | [Recharts](https://recharts.org/) | 2.8.0 |
 
 ---
 
@@ -77,12 +82,16 @@ This project demonstrates a complete UX workflow from design to development, fea
 - **npm** or **yarn** package manager
 - **Git** for version control
 
+### Live Demo
+
+The demo is currently running at: **http://localhost:3000** (or **http://localhost:3001** if port 3000 is in use)
+
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/figma-ux-demo.git
-   cd figma-ux-demo
+   git clone https://github.com/zhengyanwu/cloud-platform-demo.git
+   cd cloud-platform-demo
    ```
 
 2. **Install dependencies**
@@ -100,7 +109,7 @@ This project demonstrates a complete UX workflow from design to development, fea
    ```
 
 4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3000](http://localhost:3000) or [http://localhost:3001](http://localhost:3001) if port 3000 is in use
 
 ### Available Scripts
 
@@ -116,7 +125,7 @@ This project demonstrates a complete UX workflow from design to development, fea
 ## 📁 Project Structure
 
 ```
-figmaUX/
+zhengyanwu-cloud-platform/
 ├── 📁 app/                    # Next.js App Router
 │   ├── 📄 layout.tsx         # Root layout component
 │   ├── 📄 page.tsx           # Home page component
@@ -124,14 +133,11 @@ figmaUX/
 ├── 📁 components/            # React components
 │   ├── 📄 Header.tsx         # Navigation header
 │   ├── 📄 Hero.tsx           # Hero section
-│   ├── 📄 Features.tsx       # Features showcase
-│   ├── 📄 DesignSystem.tsx   # Design system demo
-│   ├── 📄 FigmaIntegration.tsx # Figma integration
+│   ├── 📄 Services.tsx       # Cloud services showcase
+│   ├── 📄 Dashboard.tsx      # Analytics dashboard
+│   ├── 📄 Analytics.tsx      # Advanced analytics
+│   ├── 📄 Pricing.tsx        # Pricing plans
 │   └── 📄 Footer.tsx         # Footer component
-├── 📁 docs/                  # Documentation
-│   └── 📄 DESIGN_SYSTEM.md   # Design system guide
-├── 📁 public/                # Static assets
-│   └── 📄 figma-plugin-manifest.json
 ├── 📄 package.json           # Dependencies & scripts
 ├── 📄 tailwind.config.js     # Tailwind configuration
 ├── 📄 next.config.js         # Next.js configuration
@@ -143,17 +149,27 @@ figmaUX/
 
 ## 🎨 Design System
 
+### Brand Identity
+
+**ZhengyanWU CloudPlatform** features a modern, professional design system optimized for cloud infrastructure management with:
+
+- **Primary Brand**: Cloud Blue (#0066FF) - Represents reliability and technology
+- **Secondary Accent**: Cloud Purple (#7C3AED) - Innovation and creativity
+- **Success States**: Green (#10B981) - Positive actions and healthy systems
+- **Warning States**: Orange (#F59E0B) - Attention and monitoring
+- **Error States**: Red (#EF4444) - Critical issues and alerts
+
 ### Color Palette
 
 <div align="center">
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| ![Figma Blue](https://via.placeholder.com/20/18A0FB/000000?text=+) Figma Blue | `#18A0FB` | Primary brand color |
-| ![Purple](https://via.placeholder.com/20/8B5CF6/000000?text=+) Purple | `#8B5CF6` | Secondary accent |
-| ![Green](https://via.placeholder.com/20/10B981/000000?text=+) Green | `#10B981` | Success states |
-| ![Orange](https://via.placeholder.com/20/F59E0B/000000?text=+) Orange | `#F59E0B` | Warning states |
-| ![Red](https://via.placeholder.com/20/EF4444/000000?text=+) Red | `#EF4444` | Error states |
+| ![Cloud Blue](https://via.placeholder.com/20/0066FF/000000?text=+) Cloud Blue | `#0066FF` | Primary brand color |
+| ![Cloud Purple](https://via.placeholder.com/20/7C3AED/000000?text=+) Cloud Purple | `#7C3AED` | Secondary accent |
+| ![Success Green](https://via.placeholder.com/20/10B981/000000?text=+) Success Green | `#10B981` | Success states |
+| ![Warning Orange](https://via.placeholder.com/20/F59E0B/000000?text=+) Warning Orange | `#F59E0B` | Warning states |
+| ![Error Red](https://via.placeholder.com/20/EF4444/000000?text=+) Error Red | `#EF4444` | Error states |
 
 </div>
 
@@ -165,45 +181,68 @@ figmaUX/
 
 ### Components
 
-- **Buttons** - Primary, Secondary, Icon variants
-- **Input Fields** - Text, Password, with validation states
-- **Cards** - Default, Interactive, Featured variants
-- **Badges** - Info, Success, Warning, Error types
+- **Buttons** - Primary, Secondary, Success, Warning variants
+- **Cards** - Default, Hover, Interactive variants
+- **Status Indicators** - Online, Warning, Error, Offline states
+- **Progress Bars** - Resource usage and performance metrics
 - **Navigation** - Responsive header with mobile menu
 
 ---
 
-## 🔗 Figma Integration
+## 📊 Dashboard Features
 
-This demo showcases how to integrate Figma with your development workflow:
+### Real-time Metrics
+- **Active Instances** - Live count of running compute resources
+- **Database Connections** - Current database connection count
+- **Global Traffic** - Network bandwidth usage
+- **Monthly Cost** - Current billing information
 
-### Features
-- ✅ **Component Export** - Export Figma components to React/Vue/HTML
-- ✅ **Design Tokens** - Extract colors, typography, and spacing
-- ✅ **Real-time Sync** - Automatic synchronization between design and code
-- ✅ **Code Generation** - Generate production-ready code from designs
+### Resource Monitoring
+- **CPU Usage** - Real-time processor utilization
+- **Memory Usage** - RAM consumption tracking
+- **Storage Usage** - Disk space monitoring
+- **Network I/O** - Bandwidth utilization
 
-### Plugin Setup
-1. Install the FigmaUX plugin from the Figma Community
-2. Select components or styles in your Figma file
-3. Export as JSON or CSS
-4. Import into your project
+### Performance Analytics
+- **Response Time** - Application performance metrics
+- **Error Rate** - System reliability monitoring
+- **Active Users** - User engagement tracking
+- **Geographic Distribution** - Global user analytics
 
-### Example Integration
-```typescript
-// Generated from Figma design tokens
-const designTokens = {
-  colors: {
-    primary: '#18A0FB',
-    secondary: '#8B5CF6',
-    success: '#10B981'
-  },
-  typography: {
-    heading: 'Inter Bold',
-    body: 'Inter Regular'
-  }
-}
-```
+---
+
+## 💰 Pricing Plans
+
+ZhengyanWU CloudPlatform offers three comprehensive pricing tiers designed to scale with your business needs:
+
+### Starter Plan - $29/month
+Perfect for small projects and startups
+- **Compute**: 2 vCPU, 4GB RAM
+- **Storage**: 50GB SSD Storage
+- **Network**: 1TB Bandwidth
+- **Monitoring**: Basic Monitoring
+- **Support**: Email Support
+- **SLA**: 99.9% Uptime SLA
+
+### Professional Plan - $99/month
+Ideal for growing businesses
+- **Compute**: 8 vCPU, 16GB RAM
+- **Storage**: 200GB SSD Storage
+- **Network**: 5TB Bandwidth
+- **Monitoring**: Advanced Monitoring
+- **Features**: Load Balancing, Auto-scaling
+- **Support**: Priority Support
+- **SLA**: 99.95% Uptime SLA
+
+### Enterprise Plan - $299/month
+For large-scale applications
+- **Compute**: 32 vCPU, 64GB RAM
+- **Storage**: 1TB SSD Storage
+- **Network**: Unlimited Bandwidth
+- **Analytics**: Advanced Analytics
+- **Features**: Global CDN, Custom Integrations
+- **Support**: Dedicated Support
+- **SLA**: 99.99% Uptime SLA
 
 ---
 
@@ -227,7 +266,7 @@ const designTokens = {
 Built with Framer Motion for smooth, performant animations:
 
 ### Animation Types
-- **Page Transitions** - Smooth navigation between pages
+- **Page Transitions** - Smooth navigation between sections
 - **Scroll Animations** - Elements animate as they enter viewport
 - **Hover Effects** - Interactive feedback on user actions
 - **Loading States** - Engaging loading animations
@@ -270,8 +309,8 @@ npm start
 Create a `.env.local` file for local development:
 
 ```env
-NEXT_PUBLIC_FIGMA_TOKEN=your_figma_token_here
 NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=https://api.zhengyanwu-cloudplatform.com
 ```
 
 ---
@@ -319,7 +358,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 | Tool | Description |
 |------|-------------|
-| ![Figma](https://img.shields.io/badge/Figma-Design%20Platform-blue?logo=figma) | Amazing design platform |
+| ![Next.js](https://img.shields.io/badge/Next.js-React%20Framework-black?logo=next.js) | Amazing React framework |
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Utility%20First-38B2AC?logo=tailwind-css) | Utility-first CSS framework |
 | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation%20Library-black?logo=framer) | Smooth animations |
 | ![Lucide](https://img.shields.io/badge/Lucide-Beautiful%20Icons-gray?logo=lucide) | Beautiful icons |
@@ -330,20 +369,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Community
 
-- **📧 Email**: support@figmaux.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/figma-ux-demo/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/figma-ux-demo/discussions)
-- **📖 Documentation**: [Design System Guide](./docs/DESIGN_SYSTEM.md)
+- **📧 Email**: support@zhengyanwu-cloudplatform.com
+- **📱 Phone**: +1 (617) 513-9881
+- **📍 Address**: Redmond WA 98052
+- **🐛 Issues**: [GitHub Issues](https://github.com/zhengyanwu/cloud-platform-demo/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/zhengyanwu/cloud-platform-demo/discussions)
+- **📖 Documentation**: [API Documentation](https://docs.zhengyanwu-cloudplatform.com)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the design and development community**
+**Built with ❤️ by ZhengyanWU for the cloud computing community**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/figma-ux-demo?style=social)](https://github.com/yourusername/figma-ux-demo)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/figma-ux-demo?style=social)](https://github.com/yourusername/figma-ux-demo)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/figma-ux-demo)](https://github.com/yourusername/figma-ux-demo/issues)
+[![GitHub stars](https://img.shields.io/github/stars/zhengyanwu/cloud-platform-demo?style=social)](https://github.com/zhengyanwu/cloud-platform-demo)
+[![GitHub forks](https://img.shields.io/github/forks/zhengyanwu/cloud-platform-demo?style=social)](https://github.com/zhengyanwu/cloud-platform-demo)
+[![GitHub issues](https://img.shields.io/github/issues/zhengyanwu/cloud-platform-demo)](https://github.com/zhengyanwu/cloud-platform-demo/issues)
 
 </div>
 

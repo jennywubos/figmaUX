@@ -5,8 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Figma UX Demo',
-  description: 'A comprehensive UX demo project showcasing modern design principles and Figma integration',
+  title: 'ZhengyanWU CloudPlatform - Modern Cloud Services',
+  description: 'A comprehensive cloud service platform with enterprise-grade infrastructure, analytics, and management tools.',
+  keywords: ['cloud', 'platform', 'services', 'infrastructure', 'analytics', 'management'],
 }
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="min-h-screen bg-gradient-to-br from-white via-blue-50 to-indigo-50">
           {children}
         </div>
       </body>

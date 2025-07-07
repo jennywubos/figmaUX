@@ -2,23 +2,12 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { 
-  Figma, 
-  Palette, 
-  Users, 
-  Zap, 
-  ArrowRight, 
-  Star,
-  CheckCircle,
-  Play,
-  Download,
-  Share2
-} from 'lucide-react'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
-import Features from '@/components/Features'
-import DesignSystem from '@/components/DesignSystem'
-import FigmaIntegration from '@/components/FigmaIntegration'
+import Services from '@/components/Services'
+import Dashboard from '@/components/Dashboard'
+import Analytics from '@/components/Analytics'
+import Pricing from '@/components/Pricing'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -30,11 +19,13 @@ export default function Home() {
       
       <Hero />
       
-      <Features />
+      <Services />
       
-      <DesignSystem />
+      <Dashboard />
       
-      <FigmaIntegration />
+      <Analytics />
+      
+      <Pricing />
       
       <Footer />
     </main>
