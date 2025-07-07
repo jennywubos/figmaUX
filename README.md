@@ -380,6 +380,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
+## demo screen shot
+![image](https://github.com/user-attachments/assets/b7ca2405-ce62-45c0-b717-df2da78bf070)
+
+
+
+
 **Built with ❤️ by ZhengyanWU for the cloud computing community**
 
 [![GitHub stars](https://img.shields.io/github/stars/zhengyanwu/cloud-platform-demo?style=social)](https://github.com/zhengyanwu/cloud-platform-demo)
